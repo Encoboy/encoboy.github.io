@@ -291,14 +291,15 @@ header nav .brand-span {
 }
 
 header .brand-logo .logo-img {
-  height: 145px;
+  height: 5rem;
   vertical-align: middle;
   padding-bottom: 6px;
-  margin-top: -37px;
+  /* margin-top: -37px; */
 }
 
 header .brand-logo .logo-span {
-  font-size: 1.6rem;
+  margin-left: -25px;
+  font-size: 1.2rem;
 }
 
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
