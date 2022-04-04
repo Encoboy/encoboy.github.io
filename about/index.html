@@ -328,7 +328,7 @@
             <div class="description center-align">
                 
                 <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: ['我是要成为世界上最强的男人',''],
@@ -371,14 +371,24 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">3</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
                     <div class="col s12 m12 l4">
                         <div class="profile center-align">
                             <div class="avatar">
-                                <img src="/medias/avatar.jpg" alt="luoluo"
+                                <img src="/medias/avatar.jpg" alt="enco"
                                      class="circle responsive-img avatar-img">
                             </div>
                             <div class="author">
@@ -391,11 +401,21 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">3</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
-                                <div class="title">luoluo</div>
+                                <div class="title">enco</div>
                                 <div class="career">Software Engineer</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
@@ -575,7 +595,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"小类","value":1},{"name":"大类","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -599,7 +619,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["技术","总结","生活"]
             }
         ],
         yAxis: [
@@ -612,7 +632,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -653,40 +673,40 @@
         
         <div class="col s12 m6 l4" data-aos="fade-up">
             <div class="info center-align">
-                <a href="http://github.com/blinkfox/hexo-theme-matery" class="icon"
+                <a href="https://github.com/Encoboy/SearchBest" class="icon"
                    style="background: linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)" target="_blank">
                     <i class="fas fa-file-alt"></i>
                 </a>
                 <div class="info-title">
-                    <a href="http://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>
+                    <a href="https://github.com/Encoboy/SearchBest" target="_blank">search-best</a>
                 </div>
-                <div class="info-desc">This is a Hexo blog theme with &#39;Material Design&#39; and responsive design.</div>
+                <div class="info-desc">简约面试题。</div>
             </div>
         </div>
         
         <div class="col s12 m6 l4" data-aos="fade-up">
             <div class="info center-align">
-                <a href="https://github.com/blinkfox/fenix" class="icon"
+                <a href="https://github.com/Encoboy/website-price-info" class="icon"
                    style="background: linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)" target="_blank">
                     <i class="fas fa-database"></i>
                 </a>
                 <div class="info-title">
-                    <a href="https://github.com/blinkfox/fenix" target="_blank">Fenix</a>
+                    <a href="https://github.com/Encoboy/website-price-info" target="_blank">website-price-info</a>
                 </div>
-                <div class="info-desc">这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。</div>
+                <div class="info-desc">爬取页面最高最低价格的谷歌插件。</div>
             </div>
         </div>
         
         <div class="col s12 m6 l4" data-aos="fade-up">
             <div class="info center-align">
-                <a href="https://github.com/blinkfox/typora-vue-theme" class="icon"
+                <a href="https://github.com/Encoboy/uni-doctor" class="icon"
                    style="background: linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)" target="_blank">
                     <i class="fas fa-file-alt"></i>
                 </a>
                 <div class="info-title">
-                    <a href="https://github.com/blinkfox/typora-vue-theme" target="_blank">typora-vue-theme</a>
+                    <a href="https://github.com/Encoboy/uni-doctor" target="_blank">uni-doctor</a>
                 </div>
-                <div class="info-desc">This is a typora theme inspired by Vue document style.</div>
+                <div class="info-desc">uni-app开发的医院软件</div>
             </div>
         </div>
         
@@ -710,7 +730,7 @@
             <div class="skillbar">
                 <div class="skillbar-title"
                      style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 85%">
-                    <span>Java</span>
+                    <span>React</span>
                 </div>
                 <div class="skill-bar-percent">85%</div>
             </div>
@@ -742,32 +762,10 @@
         <div class="col s12 m6 l6" data-aos="fade-up">
             <div class="skillbar">
                 <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
+                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 85%">
                     <span>CSS</span>
                 </div>
-                <div class="skill-bar-percent">70%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 90%">
-                    <span>SQL</span>
-                </div>
-                <div class="skill-bar-percent">90%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 75%">
-                    <span>程序设计</span>
-                </div>
-                <div class="skill-bar-percent">75%</div>
+                <div class="skill-bar-percent">85%</div>
             </div>
         </div>
         
@@ -780,6 +778,24 @@
     <div class="other-skills chip-container" data-aos="zoom-in-up">
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
+            
+            
+            <a href="/tags/%E6%8A%80%E6%9C%AF/">
+                <span class="chip center-align waves-effect waves-light chip-default">技术</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%80%BB%E7%BB%93/">
+                <span class="chip center-align waves-effect waves-light chip-default">总结</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E7%94%9F%E6%B4%BB/">
+                <span class="chip center-align waves-effect waves-light chip-default">生活</span>
+            </a>
+            
             
         </div>
     </div>
@@ -1017,7 +1033,6 @@ $(function () {
         <i class="fas fa-arrow-up"></i>
     </a>
 </div>
-
 
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>
