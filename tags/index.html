@@ -18,7 +18,7 @@
 
 
     <title>标签 | Enco</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
@@ -33,6 +33,16 @@
 <link rel="alternate" href="/atom.xml" title="Enco" type="application/atom+xml">
 </head>
 
+
+
+    <style>
+    body{
+       background-image: url(https://cdn.jsdelivr.net/gh/Encoboy/encoboy.github.io/medias/background_luo.jpg);
+       background-repeat:no-repeat;
+       background-size: 100% 100%;
+       background-attachment:fixed;
+    }
+</style>
 
 
 
@@ -115,17 +125,6 @@
       <i class="fas fa-comments" style="zoom: 0.6;"></i>
       
       <span>留言板</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/friends" class="waves-effect waves-light">
-      
-      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
-      
-      <span>友情链接</span>
     </a>
     
   </li>
@@ -220,21 +219,10 @@
           
         </li>
         
-        <li class="m-nav-item">
-	  
-		<a href="/friends" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-address-book"></i>
-			
-			友情链接
-		</a>
-          
-        </li>
-        
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+            <a href="https://github.com/Encoboy" class="waves-effect waves-light" target="_blank">
                 <i class="fab fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
@@ -291,7 +279,7 @@
     }
 </style>
 
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/Encoboy" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -311,45 +299,46 @@
     <div class="bg-cover pd-header about-cover">
     <div class="container">
     <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    subtitle
-                
-            </div>
+  <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+    <div class="brand">
+      <div class="title center-align">
+         ONEPIECE 
+      </div>
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.min.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
-        </div>
+      <div class="description center-align">
+        
+        <span id="subtitle"></span>
+        <script src="/libs/typed/typed.min.js"></script>
+        <script>
+          var typed = new Typed("#subtitle", {
+              strings: [
+                  
+                      "一个人的梦想，千万人的期待",
+                  
+                      "终将成为海上的帝王",
+                  
+              ],
+              startDelay: 300,
+              typeSpeed: 100,
+              loop: true,
+              backSpeed: 50,
+              showCursor: true
+          });
+        </script>
+        
+      </div>
     </div>
+  </div>
 </div>
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+  // 每天切换 banner 图.  Switch banner image every day.
+  var bannerUrl =
+    "/medias/banner/" +
+    new Date().getDay() +
+    ".jpg";
+  $(".bg-cover").css("background-image", "url(" + bannerUrl + ")");
 </script>
 
 
@@ -378,10 +367,10 @@
                 </a>
                 
                 
-                <a href="/tags/%E4%BA%BA%E7%89%A9/" title="人物: 1">
+                <a href="/tags/%E4%BA%BA%E7%89%A92/" title="人物2: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="人物" style="background-color: #F5EEF8;">人物
+                            data-tagname="人物2" style="background-color: #F5EEF8;">人物2
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -410,7 +399,7 @@
     $.getScript("/libs/jqcloud/jqcloud-1.0.4.min.js",function () {
         
 
-        $('#tag-wordcloud').jQCloud([{"text":"技术","weight":1,"link":"/tags/技术/"},{"text":"人物","weight":1,"link":"/tags/人物/"}], {
+        $('#tag-wordcloud').jQCloud([{"text":"技术","weight":1,"link":"/tags/技术/"},{"text":"人物2","weight":1,"link":"/tags/人物2/"}], {
             autoResize: true
         });
     })
@@ -510,13 +499,13 @@
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/Encoboy" class="tooltipped" target="_blank" data-tooltip="GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:443080804@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -526,7 +515,7 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=443080804" class="tooltipped" target="_blank" data-tooltip="QQ: 443080804" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
@@ -535,10 +524,6 @@
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>
@@ -713,17 +698,21 @@ $(function () {
 
 
 
+    <script type="text/javascript">
+        // 只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+        }
+    </script>
+
+
 <!-- 雪花特效 -->
 
 
 <!-- 鼠标星星特效 -->
 
 
-
-    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-    <script src="/libs/others/TencentCaptcha.js"></script>
-    <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button"
-            hidden></button>
 
 
 <!-- Baidu Analytics -->
@@ -745,8 +734,10 @@ $(function () {
 </script>
 
 
-    <script src="/libs/others/clicklove.js" async="async"></script>
 
+    <script src="/libs/others/clickziti.js" async="async"></script>
+
+    
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
 
@@ -767,29 +758,28 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
 
 
-      <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"
-  />
+ <!-- 引用Aplayer和metingjs -->
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
 
-  <div
-    id="my-aplayer"
-    class="aplayer"
-    data-id="5283318325"
-    data-server="netease"
-    data-type="playlist"
-    data-fixed="true"
-    data-autoplay="false"
-    data-order="list"
-    data-volume="0.55"
-    data-theme="#cc543a"
-    data-preload="auto"
-    data-lrcType="0"
-  ></div>
+<div id="my-aplayer"
+ class="aplayer" 
+ data-id='3036801375'
+ data-server='netease'
+ data-type='playlist'
+ data-fixed="true" 
+ data-autoplay="false" 
+ data-order="list" 
+ data-volume="0.55" 
+ data-theme="#cc543a" 
+ data-preload="auto" 
+ data-lrcType=0
+></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
-    
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+ 
+
 </body>
 
 </html>
