@@ -6,7 +6,7 @@
   <link href="http://encoboy.github.io/atom.xml" rel="self"/>
   
   <link href="http://encoboy.github.io/"/>
-  <updated>2022-04-04T16:20:08.275Z</updated>
+  <updated>2022-04-05T05:43:52.309Z</updated>
   <id>http://encoboy.github.io/</id>
   
   <author>
@@ -21,8 +21,16 @@
     <link href="http://encoboy.github.io/2022/04/04/crateblog/"/>
     <id>http://encoboy.github.io/2022/04/04/crateblog/</id>
     <published>2022-04-04T15:30:28.000Z</published>
-    <updated>2022-04-04T16:20:08.275Z</updated>
+    <updated>2022-04-05T05:43:52.309Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check</summary>
+        
+      
     
     
     
@@ -40,14 +48,14 @@
     <link href="http://encoboy.github.io/2022/04/04/me/"/>
     <id>http://encoboy.github.io/2022/04/04/me/</id>
     <published>2022-04-04T08:07:41.000Z</published>
-    <updated>2022-04-04T12:13:29.956Z</updated>
+    <updated>2022-04-05T05:47:47.953Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check [documentation]&lt;br&gt;Welcome to &lt;a</summary>
         
       
     
@@ -65,14 +73,15 @@
     <link href="http://encoboy.github.io/2022/04/02/hello-world/"/>
     <id>http://encoboy.github.io/2022/04/02/hello-world/</id>
     <published>2022-04-02T08:46:56.435Z</published>
-    <updated>2022-04-04T12:16:02.421Z</updated>
+    <updated>2022-04-05T05:49:13.957Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick</summary>
         
       
     
@@ -81,7 +90,7 @@
     <category term="小类" scheme="http://encoboy.github.io/categories/%E5%B0%8F%E7%B1%BB/"/>
     
     
-    <category term="技术" scheme="http://encoboy.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="小说" scheme="http://encoboy.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
     
     <category term="总结" scheme="http://encoboy.github.io/tags/%E6%80%BB%E7%BB%93/"/>
     
