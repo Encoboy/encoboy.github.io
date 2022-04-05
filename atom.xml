@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Enco</title>
+  
+  
+  <link href="http://encoboy.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://encoboy.github.io/"/>
+  <updated>2022-04-04T16:20:08.275Z</updated>
+  <id>http://encoboy.github.io/</id>
+  
+  <author>
+    <name>enco</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>page</title>
+    <link href="http://encoboy.github.io/2022/04/04/crateblog/"/>
+    <id>http://encoboy.github.io/2022/04/04/crateblog/</id>
+    <published>2022-04-04T15:30:28.000Z</published>
+    <updated>2022-04-04T16:20:08.275Z</updated>
+    
+    
+    
+    
+    <category term="小类" scheme="http://encoboy.github.io/categories/%E5%B0%8F%E7%B1%BB/"/>
+    
+    
+    <category term="技术" scheme="http://encoboy.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="人物" scheme="http://encoboy.github.io/tags/%E4%BA%BA%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>page2</title>
+    <link href="http://encoboy.github.io/2022/04/04/me/"/>
+    <id>http://encoboy.github.io/2022/04/04/me/</id>
+    <published>2022-04-04T08:07:41.000Z</published>
+    <updated>2022-04-04T12:13:29.956Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="大类" scheme="http://encoboy.github.io/categories/%E5%A4%A7%E7%B1%BB/"/>
+    
+    
+    <category term="生活" scheme="http://encoboy.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World22</title>
+    <link href="http://encoboy.github.io/2022/04/02/hello-world/"/>
+    <id>http://encoboy.github.io/2022/04/02/hello-world/</id>
+    <published>2022-04-02T08:46:56.435Z</published>
+    <updated>2022-04-04T12:16:02.421Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="小类" scheme="http://encoboy.github.io/categories/%E5%B0%8F%E7%B1%BB/"/>
+    
+    
+    <category term="技术" scheme="http://encoboy.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="总结" scheme="http://encoboy.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+</feed>
