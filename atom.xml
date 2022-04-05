@@ -6,7 +6,7 @@
   <link href="http://encoboy.github.io/atom.xml" rel="self"/>
   
   <link href="http://encoboy.github.io/"/>
-  <updated>2022-04-05T11:06:39.141Z</updated>
+  <updated>2022-04-05T14:54:47.936Z</updated>
   <id>http://encoboy.github.io/</id>
   
   <author>
@@ -17,29 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>page</title>
+    <title>Markdown指南</title>
     <link href="http://encoboy.github.io/2022/04/04/crateblog/"/>
     <id>http://encoboy.github.io/2022/04/04/crateblog/</id>
     <published>2022-04-04T15:30:28.000Z</published>
-    <updated>2022-04-05T11:06:39.141Z</updated>
+    <updated>2022-04-05T14:54:47.936Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check</summary>
+    <summary type="html">&lt;p&gt;Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 标记语言来说，Markdown</summary>
         
       
     
     
     
-    <category term="小类" scheme="http://encoboy.github.io/categories/%E5%B0%8F%E7%B1%BB/"/>
+    <category term="博客" scheme="http://encoboy.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="技术" scheme="http://encoboy.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="人物2" scheme="http://encoboy.github.io/tags/%E4%BA%BA%E7%89%A92/"/>
+    <category term="Markdown" scheme="http://encoboy.github.io/tags/Markdown/"/>
     
   </entry>
   
